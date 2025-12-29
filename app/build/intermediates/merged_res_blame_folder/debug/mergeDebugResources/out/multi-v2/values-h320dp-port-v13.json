@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.helpofai.mymmusic.app-mergeDebugResources-79:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajib\\.gradle\\caches\\8.13\\transforms\\651892a048647f2abd14faddd4a237bb\\transformed\\material-1.13.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

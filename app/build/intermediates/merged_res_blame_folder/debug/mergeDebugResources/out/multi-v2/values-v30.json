@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.helpofai.mymmusic.app-mergeDebugResources-79:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajib\\.gradle\\caches\\8.13\\transforms\\bb6db6728a10f634ee972abffc1bf431\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

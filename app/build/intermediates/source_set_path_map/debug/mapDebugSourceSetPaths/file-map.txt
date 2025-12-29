@@ -1,0 +1,85 @@
+com.helpofai.mymmusic.app-lifecycle-runtime-release-0 C:\Users\rajib\.gradle\caches\8.13\transforms\03e2dd017ef649eb7c7bbddff27f572d\transformed\lifecycle-runtime-release\res
+com.helpofai.mymmusic.app-ui-release-1 C:\Users\rajib\.gradle\caches\8.13\transforms\03eb5ca6291304795b1d620623ee82be\transformed\ui-release\res
+com.helpofai.mymmusic.app-material-icons-core-release-2 C:\Users\rajib\.gradle\caches\8.13\transforms\056c5b33542262d19246be146a6527f7\transformed\material-icons-core-release\res
+com.helpofai.mymmusic.app-coordinatorlayout-1.1.0-3 C:\Users\rajib\.gradle\caches\8.13\transforms\091ce8c436e9b97c5613a38c09218459\transformed\coordinatorlayout-1.1.0\res
+com.helpofai.mymmusic.app-lifecycle-livedata-2.8.7-4 C:\Users\rajib\.gradle\caches\8.13\transforms\11cf5b2702fb8aaf4c35c5378942eef6\transformed\lifecycle-livedata-2.8.7\res
+com.helpofai.mymmusic.app-emoji2-1.3.0-5 C:\Users\rajib\.gradle\caches\8.13\transforms\1447e000a33530b18003c9acbf6bcac3\transformed\emoji2-1.3.0\res
+com.helpofai.mymmusic.app-appcompat-resources-1.7.1-6 C:\Users\rajib\.gradle\caches\8.13\transforms\166599ecea60f6a8ec3b8d519cb52d48\transformed\appcompat-resources-1.7.1\res
+com.helpofai.mymmusic.app-coil-base-2.6.0-7 C:\Users\rajib\.gradle\caches\8.13\transforms\167a72be455260d7d0717dcaed97714c\transformed\coil-base-2.6.0\res
+com.helpofai.mymmusic.app-hilt-navigation-compose-1.2.0-8 C:\Users\rajib\.gradle\caches\8.13\transforms\16d2737be3ffd541cb53323d2a45fa7c\transformed\hilt-navigation-compose-1.2.0\res
+com.helpofai.mymmusic.app-emoji2-views-helper-1.3.0-9 C:\Users\rajib\.gradle\caches\8.13\transforms\18b5f16074aa834e4d36665a04610b06\transformed\emoji2-views-helper-1.3.0\res
+com.helpofai.mymmusic.app-customview-poolingcontainer-1.0.0-10 C:\Users\rajib\.gradle\caches\8.13\transforms\1a9762d1e3d949034f6de4c5a3e64e10\transformed\customview-poolingcontainer-1.0.0\res
+com.helpofai.mymmusic.app-annotation-experimental-1.4.1-11 C:\Users\rajib\.gradle\caches\8.13\transforms\1c8cd51695975cd5aa9dd0a9f65f897e\transformed\annotation-experimental-1.4.1\res
+com.helpofai.mymmusic.app-material-ripple-release-12 C:\Users\rajib\.gradle\caches\8.13\transforms\2335e52dd8550820ecf51bdb31ebe19a\transformed\material-ripple-release\res
+com.helpofai.mymmusic.app-lifecycle-viewmodel-savedstate-2.8.7-13 C:\Users\rajib\.gradle\caches\8.13\transforms\241dc0180b26c9e152ddb5389035162e\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.helpofai.mymmusic.app-navigation-common-ktx-2.8.5-14 C:\Users\rajib\.gradle\caches\8.13\transforms\24d404baa471a0b8931d28cd34d69acf\transformed\navigation-common-ktx-2.8.5\res
+com.helpofai.mymmusic.app-lifecycle-runtime-ktx-release-15 C:\Users\rajib\.gradle\caches\8.13\transforms\2a0f26104116c6d6f7b78cb108c96ad5\transformed\lifecycle-runtime-ktx-release\res
+com.helpofai.mymmusic.app-ui-geometry-release-16 C:\Users\rajib\.gradle\caches\8.13\transforms\2aae4024bc8ea8a26ec7728cee58449f\transformed\ui-geometry-release\res
+com.helpofai.mymmusic.app-lifecycle-viewmodel-release-17 C:\Users\rajib\.gradle\caches\8.13\transforms\2b8df59cc34b06401024f0e1f72c67c4\transformed\lifecycle-viewmodel-release\res
+com.helpofai.mymmusic.app-foundation-layout-release-18 C:\Users\rajib\.gradle\caches\8.13\transforms\2d84bda6f9a3103dc8c9d2809b2a37c6\transformed\foundation-layout-release\res
+com.helpofai.mymmusic.app-navigation-common-2.8.5-19 C:\Users\rajib\.gradle\caches\8.13\transforms\3a8523229d5779af61e4da3e814fd308\transformed\navigation-common-2.8.5\res
+com.helpofai.mymmusic.app-activity-1.9.0-20 C:\Users\rajib\.gradle\caches\8.13\transforms\3afb5b652348ebcea0b1947cd5a2724a\transformed\activity-1.9.0\res
+com.helpofai.mymmusic.app-ui-tooling-data-release-21 C:\Users\rajib\.gradle\caches\8.13\transforms\40c1f409e26c5b86d35145c7495df586\transformed\ui-tooling-data-release\res
+com.helpofai.mymmusic.app-media3-ui-1.5.1-22 C:\Users\rajib\.gradle\caches\8.13\transforms\4a1c57bf08eb24cbfe9a8b11319e1c56\transformed\media3-ui-1.5.1\res
+com.helpofai.mymmusic.app-media-1.7.0-23 C:\Users\rajib\.gradle\caches\8.13\transforms\4ff119d87f3034e32121f5e814be6ebc\transformed\media-1.7.0\res
+com.helpofai.mymmusic.app-graphics-shapes-release-24 C:\Users\rajib\.gradle\caches\8.13\transforms\57711b50d30c86a0bcf8cd15f2909052\transformed\graphics-shapes-release\res
+com.helpofai.mymmusic.app-startup-runtime-1.1.1-25 C:\Users\rajib\.gradle\caches\8.13\transforms\57f4f3e31625b1e5b8c4fc9692e47b21\transformed\startup-runtime-1.1.1\res
+com.helpofai.mymmusic.app-ui-tooling-release-26 C:\Users\rajib\.gradle\caches\8.13\transforms\58d3d48b9d38e9d171e22d936c79482c\transformed\ui-tooling-release\res
+com.helpofai.mymmusic.app-savedstate-1.2.1-27 C:\Users\rajib\.gradle\caches\8.13\transforms\5b3d7b8f882de4ad76c789c89485c7c0\transformed\savedstate-1.2.1\res
+com.helpofai.mymmusic.app-hilt-navigation-1.2.0-28 C:\Users\rajib\.gradle\caches\8.13\transforms\5d3840a5655e11ded415d8045e4d9f15\transformed\hilt-navigation-1.2.0\res
+com.helpofai.mymmusic.app-core-1.17.0-29 C:\Users\rajib\.gradle\caches\8.13\transforms\62c0b778aa09be2cfd7d28b4d17425e2\transformed\core-1.17.0\res
+com.helpofai.mymmusic.app-material-1.13.0-30 C:\Users\rajib\.gradle\caches\8.13\transforms\651892a048647f2abd14faddd4a237bb\transformed\material-1.13.0\res
+com.helpofai.mymmusic.app-ui-tooling-preview-release-31 C:\Users\rajib\.gradle\caches\8.13\transforms\654d0fdf6f0fa9ed1b9149af04f724a0\transformed\ui-tooling-preview-release\res
+com.helpofai.mymmusic.app-lifecycle-livedata-core-2.8.7-32 C:\Users\rajib\.gradle\caches\8.13\transforms\66be8dac9d80f2d6061548ef13131d6d\transformed\lifecycle-livedata-core-2.8.7\res
+com.helpofai.mymmusic.app-graphics-path-1.0.1-33 C:\Users\rajib\.gradle\caches\8.13\transforms\6758ac88d3714c560c0c9e62e709796a\transformed\graphics-path-1.0.1\res
+com.helpofai.mymmusic.app-viewpager2-1.0.0-34 C:\Users\rajib\.gradle\caches\8.13\transforms\6a25e71a3649346855aeeb3e87f05118\transformed\viewpager2-1.0.0\res
+com.helpofai.mymmusic.app-core-runtime-2.2.0-35 C:\Users\rajib\.gradle\caches\8.13\transforms\6af86a9c749504a1a4d32421c2bd68cf\transformed\core-runtime-2.2.0\res
+com.helpofai.mymmusic.app-lifecycle-viewmodel-compose-release-36 C:\Users\rajib\.gradle\caches\8.13\transforms\6c0c93818ae6ef54d5d9f20456f79c2d\transformed\lifecycle-viewmodel-compose-release\res
+com.helpofai.mymmusic.app-ui-unit-release-37 C:\Users\rajib\.gradle\caches\8.13\transforms\6d6b6bd0b291b89e9b914bb3b961d0d5\transformed\ui-unit-release\res
+com.helpofai.mymmusic.app-dynamicanimation-1.1.0-38 C:\Users\rajib\.gradle\caches\8.13\transforms\76e5a00ba7290149b9988a765d178022\transformed\dynamicanimation-1.1.0\res
+com.helpofai.mymmusic.app-material-release-39 C:\Users\rajib\.gradle\caches\8.13\transforms\7724dd776bb2bf18fc8487d9c591c15e\transformed\material-release\res
+com.helpofai.mymmusic.app-animation-release-40 C:\Users\rajib\.gradle\caches\8.13\transforms\783e9d1a4d9014a55772fdae45fad3be\transformed\animation-release\res
+com.helpofai.mymmusic.app-media3-exoplayer-1.5.1-41 C:\Users\rajib\.gradle\caches\8.13\transforms\788125d5e916341074bd8c23ceedf3af\transformed\media3-exoplayer-1.5.1\res
+com.helpofai.mymmusic.app-lifecycle-runtime-compose-release-42 C:\Users\rajib\.gradle\caches\8.13\transforms\7ec37f67f0f89badd9fde26527811cb6\transformed\lifecycle-runtime-compose-release\res
+com.helpofai.mymmusic.app-constraintlayout-2.1.0-43 C:\Users\rajib\.gradle\caches\8.13\transforms\7efa9e1365bdbe501bb0949e393483b2\transformed\constraintlayout-2.1.0\res
+com.helpofai.mymmusic.app-tracing-1.2.0-44 C:\Users\rajib\.gradle\caches\8.13\transforms\7f606cef5c7d1aa8dc5139c360b22055\transformed\tracing-1.2.0\res
+com.helpofai.mymmusic.app-transition-1.5.0-45 C:\Users\rajib\.gradle\caches\8.13\transforms\81a42982c1f89dc6c8fffa9341594f0d\transformed\transition-1.5.0\res
+com.helpofai.mymmusic.app-lifecycle-viewmodel-ktx-2.8.7-46 C:\Users\rajib\.gradle\caches\8.13\transforms\835d4f86d842a0976f73e2db71d2ff8a\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.helpofai.mymmusic.app-activity-ktx-1.9.0-47 C:\Users\rajib\.gradle\caches\8.13\transforms\91f638945776aa715ecaafe23b9a3bc1\transformed\activity-ktx-1.9.0\res
+com.helpofai.mymmusic.app-lifecycle-process-2.8.7-48 C:\Users\rajib\.gradle\caches\8.13\transforms\9acb25e42192fba8f8b02ef67ea53b2d\transformed\lifecycle-process-2.8.7\res
+com.helpofai.mymmusic.app-appcompat-1.7.1-49 C:\Users\rajib\.gradle\caches\8.13\transforms\9d41ad7eba2deecb8b1c2c94f83d6b0c\transformed\appcompat-1.7.1\res
+com.helpofai.mymmusic.app-ui-graphics-release-50 C:\Users\rajib\.gradle\caches\8.13\transforms\9f9ff2e3a565419f80c53d3b8a559b91\transformed\ui-graphics-release\res
+com.helpofai.mymmusic.app-media3-session-1.5.1-51 C:\Users\rajib\.gradle\caches\8.13\transforms\a57eb860a283682f6004559f24e68abe\transformed\media3-session-1.5.1\res
+com.helpofai.mymmusic.app-runtime-release-52 C:\Users\rajib\.gradle\caches\8.13\transforms\a80233285c0ecb60b528f17286061b65\transformed\runtime-release\res
+com.helpofai.mymmusic.app-sqlite-framework-2.4.0-53 C:\Users\rajib\.gradle\caches\8.13\transforms\aaef5527a9194f7468a588e1d000f88b\transformed\sqlite-framework-2.4.0\res
+com.helpofai.mymmusic.app-navigation-compose-2.8.5-54 C:\Users\rajib\.gradle\caches\8.13\transforms\ae17bfcb4c461b4a8d022a7d0294aafb\transformed\navigation-compose-2.8.5\res
+com.helpofai.mymmusic.app-ui-text-release-55 C:\Users\rajib\.gradle\caches\8.13\transforms\b0fefc507ed727556acbd27c5c865e01\transformed\ui-text-release\res
+com.helpofai.mymmusic.app-sqlite-2.4.0-56 C:\Users\rajib\.gradle\caches\8.13\transforms\b6d7b53ea8daa65f78d25af562f7b578\transformed\sqlite-2.4.0\res
+com.helpofai.mymmusic.app-lifecycle-livedata-core-ktx-2.8.7-57 C:\Users\rajib\.gradle\caches\8.13\transforms\b6fbeeaf9c5da19b10c0de7d80e9cc29\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.helpofai.mymmusic.app-material3-release-58 C:\Users\rajib\.gradle\caches\8.13\transforms\bb6db6728a10f634ee972abffc1bf431\transformed\material3-release\res
+com.helpofai.mymmusic.app-activity-compose-1.9.0-59 C:\Users\rajib\.gradle\caches\8.13\transforms\bb9f54ed3dd18aa200de0ec247426674\transformed\activity-compose-1.9.0\res
+com.helpofai.mymmusic.app-animation-core-release-60 C:\Users\rajib\.gradle\caches\8.13\transforms\bddfd9314e783099ffda0f7e9db6cf0d\transformed\animation-core-release\res
+com.helpofai.mymmusic.app-room-runtime-2.6.1-61 C:\Users\rajib\.gradle\caches\8.13\transforms\c03219ecb0313abba81967bcd9199415\transformed\room-runtime-2.6.1\res
+com.helpofai.mymmusic.app-profileinstaller-1.3.1-62 C:\Users\rajib\.gradle\caches\8.13\transforms\c4102fcc8745b38a09be4714d26bc27f\transformed\profileinstaller-1.3.1\res
+com.helpofai.mymmusic.app-cardview-1.0.0-63 C:\Users\rajib\.gradle\caches\8.13\transforms\c6e6f05234875c19b328c1076265571c\transformed\cardview-1.0.0\res
+com.helpofai.mymmusic.app-savedstate-ktx-1.2.1-64 C:\Users\rajib\.gradle\caches\8.13\transforms\ca47f2ce7b6bd53a629c8b756e0c082a\transformed\savedstate-ktx-1.2.1\res
+com.helpofai.mymmusic.app-navigation-runtime-ktx-2.8.5-65 C:\Users\rajib\.gradle\caches\8.13\transforms\cfa8388cc0cdcee5473057086e0d94a5\transformed\navigation-runtime-ktx-2.8.5\res
+com.helpofai.mymmusic.app-drawerlayout-1.1.1-66 C:\Users\rajib\.gradle\caches\8.13\transforms\d034ec60a9ab383cba5eaa5418caac5c\transformed\drawerlayout-1.1.1\res
+com.helpofai.mymmusic.app-fragment-1.5.4-67 C:\Users\rajib\.gradle\caches\8.13\transforms\d344a96e26d037a1a80c9da1e1daf295\transformed\fragment-1.5.4\res
+com.helpofai.mymmusic.app-core-viewtree-1.0.0-68 C:\Users\rajib\.gradle\caches\8.13\transforms\d5a87a03791d1e247613dfaafed93991\transformed\core-viewtree-1.0.0\res
+com.helpofai.mymmusic.app-recyclerview-1.3.0-69 C:\Users\rajib\.gradle\caches\8.13\transforms\d5aaa7e72ca692c7c853ddcd25f6f345\transformed\recyclerview-1.3.0\res
+com.helpofai.mymmusic.app-material-icons-extended-release-70 C:\Users\rajib\.gradle\caches\8.13\transforms\da9e7319a613d08ec2fe0513093a8901\transformed\material-icons-extended-release\res
+com.helpofai.mymmusic.app-runtime-saveable-release-71 C:\Users\rajib\.gradle\caches\8.13\transforms\e708b0bde1309c0f4a2974ed77f32def\transformed\runtime-saveable-release\res
+com.helpofai.mymmusic.app-room-ktx-2.6.1-72 C:\Users\rajib\.gradle\caches\8.13\transforms\ea50be337ad61486fe7ff279b5b7b1cf\transformed\room-ktx-2.6.1\res
+com.helpofai.mymmusic.app-navigation-runtime-2.8.5-73 C:\Users\rajib\.gradle\caches\8.13\transforms\edcc3027d08f06517eef5bf8a14ab801\transformed\navigation-runtime-2.8.5\res
+com.helpofai.mymmusic.app-foundation-release-74 C:\Users\rajib\.gradle\caches\8.13\transforms\f32e32e26782eacdd7811baa348c6f2d\transformed\foundation-release\res
+com.helpofai.mymmusic.app-core-ktx-1.17.0-75 C:\Users\rajib\.gradle\caches\8.13\transforms\f532c3359eb1f95233c69ed2f19351a6\transformed\core-ktx-1.17.0\res
+com.helpofai.mymmusic.app-ui-util-release-76 C:\Users\rajib\.gradle\caches\8.13\transforms\fbde1b550151c53bbade6e537137b539\transformed\ui-util-release\res
+com.helpofai.mymmusic.app-pngs-77 C:\Users\rajib\Desktop\music player\app\build\generated\res\pngs\debug
+com.helpofai.mymmusic.app-resValues-78 C:\Users\rajib\Desktop\music player\app\build\generated\res\resValues\debug
+com.helpofai.mymmusic.app-updated_navigation_xml-79 C:\Users\rajib\Desktop\music player\app\build\generated\updated_navigation_xml\debug
+com.helpofai.mymmusic.app-packageDebugResources-80 C:\Users\rajib\Desktop\music player\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.helpofai.mymmusic.app-packageDebugResources-81 C:\Users\rajib\Desktop\music player\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.helpofai.mymmusic.app-debug-82 C:\Users\rajib\Desktop\music player\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.helpofai.mymmusic.app-debug-83 C:\Users\rajib\Desktop\music player\app\src\debug\res
+com.helpofai.mymmusic.app-main-84 C:\Users\rajib\Desktop\music player\app\src\main\res

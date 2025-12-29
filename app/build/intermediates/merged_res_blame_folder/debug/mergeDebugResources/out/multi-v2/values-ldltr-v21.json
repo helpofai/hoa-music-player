@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.helpofai.mymmusic.app-mergeDebugResources-79:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rajib\\.gradle\\caches\\8.13\\transforms\\9d41ad7eba2deecb8b1c2c94f83d6b0c\\transformed\\appcompat-1.7.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
