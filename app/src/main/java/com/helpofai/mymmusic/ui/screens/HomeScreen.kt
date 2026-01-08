@@ -39,6 +39,7 @@ fun HomeScreen(
     onNavigateToPlayer: () -> Unit,
     onSearchClick: () -> Unit,
     onFoldersClick: () -> Unit,
+    onLibraryClick: () -> Unit,
     onMenuClick: () -> Unit,
     onEqClick: () -> Unit
 ) {
@@ -95,7 +96,10 @@ fun HomeScreen(
             }
 
             item {
-                QuickAccessGrid(onFoldersClick = onFoldersClick)
+                QuickAccessGrid(
+                    onFoldersClick = onFoldersClick,
+                    onLibraryClick = onLibraryClick
+                )
             }
 
             if (recentTracks.isNotEmpty()) {

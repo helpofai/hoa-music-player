@@ -113,16 +113,16 @@ class MainActivity : ComponentActivity() {
                                     SplashScreen(navController = navController)
                                 }
                                 composable(Screen.Home.route) {
-                                    HomeScreen(
-                                        viewModel = viewModel,
-                                        onThemeToggle = { themeViewModel.toggleTheme() },
-                                        onNavigateToPlayer = { navController.navigate(Screen.NowPlaying.route) },
-                                        onSearchClick = { navController.navigate(Screen.Search.route) },
-                                        onFoldersClick = { navController.navigate(Screen.Folders.route) },
-                                        onMenuClick = { scope.launch { drawerState.open() } },
-                                        onEqClick = { navController.navigate(Screen.Eq.route) }
-                                    )
-                                }
+                                                                        HomeScreen(
+                                                                            viewModel = viewModel,
+                                                                            onThemeToggle = { themeViewModel.toggleTheme() },
+                                                                            onNavigateToPlayer = { navController.navigate(Screen.NowPlaying.route) },
+                                                                            onSearchClick = { navController.navigate(Screen.Search.route) },
+                                                                            onFoldersClick = { navController.navigate(Screen.Folders.route) },
+                                                                            onLibraryClick = { navController.navigate(Screen.Library.route) },
+                                                                            onMenuClick = { scope.launch { drawerState.open() } },
+                                                                            onEqClick = { navController.navigate(Screen.Eq.route) }
+                                                                        )                                }
                                 composable(Screen.NowPlaying.route) {
                                     NowPlayingScreen(
                                         viewModel = viewModel,

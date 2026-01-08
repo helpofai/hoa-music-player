@@ -4,14 +4,25 @@ MyM Music is a flagship-grade Android music player built with a focus on high-fi
 
 ## 🌟 Key Features
 
-### 🎧 Audio Engine (DSP)
-*   **32-bit Floating Point Processing:**  Crystal clear audio rendering.
-*   **Precision Equalizer:**  Customizable bands for detailed sound shaping.
-*   **Audio Effects:**
-    *   **Impact Bass:** Enhanced low-frequency response.
-    *   **3D Immersion:** Spatial audio widening.
-    *   **Crystal Clarity:**  High-frequency exciter.
-    *   **Volume Booster:**  Clean gain amplification.
+### 🎧 Audiophile-Grade Audio Engine (DSP)
+MyM Music features a custom-built, high-precision 64-bit audio pipeline designed for critical listening.
+
+*   **64-bit Double Precision Core:** Every audio sample is processed using 64-bit math for zero-compromise accuracy.
+*   **Dynamic Bit-Depth & High-Res Support:** 
+    *   Native support for 16-bit, 24-bit, and 32-bit audio files.
+    *   Automatic **32-bit Float Output** for high-resolution sources to preserve maximum fidelity.
+*   **8D Spatial Audio:** Immersive rotating panning with distance-based volume and filter modulation.
+*   **Mastering-Grade Crossover:** Professional **Linkwitz-Riley 4th Order (24dB/octave)** crossover at 150Hz.
+*   **Advanced Audio Shaping:**
+    *   **Mono Bass Focus:** Keeps sub-bass tight and centered while widening the soundstage.
+    *   **Harmonic Bass Exciter:** Generates 2nd/3rd harmonics for deep, textured bass even on small speakers.
+    *   **Transient Shaper:** Dynamically enhances "attacks" (drums, plucks) for a high-definition, punchy sound.
+    *   **Vocal Protection:** Automatically maintains vocal presence and clarity during stereo widening.
+    *   **Tape Saturation:** Adds smooth, non-linear analog warmth using a custom saturation curve.
+*   **Signal Purity Chain:** 
+    *   **DC Blocker:** Removes silent offset to maximize headroom.
+    *   **TPDF Dithering:** Eliminates quantization distortion when converting back to output bit-depths.
+    *   **Soft-Knee Peak Limiter:** Prevents digital clipping while maintaining maximum impact.
 
 ### 🎨 Modern UI/UX
 *   **Material Design 3:** Fully compliant with the latest Android design guidelines.

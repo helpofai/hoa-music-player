@@ -220,6 +220,39 @@ fun SoundstageTab(viewModel: MusicViewModel) {
         val width by viewModel.stereoWidth.collectAsState()
         val balance by viewModel.stereoBalance.collectAsState()
         val crossfeed by viewModel.crossfeed.collectAsState()
+        val is8DEnabled by viewModel.is8DEnabled.collectAsState()
+        val rotationSpeed by viewModel.rotationSpeed.collectAsState()
+
+        // 8D Audio Controls
+        PremiumCard {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Column {
+                        Text("8D Audio Mode", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
+                        Text("Rotating spatial audio", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                    Switch(
+                        checked = is8DEnabled,
+                        onCheckedChange = { viewModel.set8DMode(it) }
+                    )
+                }
+                
+                if (is8DEnabled) {
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text("Rotation Speed", style = MaterialTheme.typography.labelMedium)
+                    Slider(
+                        value = rotationSpeed,
+                        onValueChange = { viewModel.set8DSpeed(it) },
+                        valueRange = 0.05f..1.0f,
+                        colors = SliderDefaults.colors(thumbColor = MaterialTheme.colorScheme.secondary, activeTrackColor = MaterialTheme.colorScheme.secondary)
+                    )
+                }
+            }
+        }
 
         ProSliderRow(stringResource(R.string.stereo_width), width, 0f..2f, Color(0xFF64B5F6)) { viewModel.setStereoWidth(it) }
         ProSliderRow(stringResource(R.string.channel_balance), balance, -1f..1f, Color(0xFFBA68C8)) { viewModel.setStereoBalance(it) }

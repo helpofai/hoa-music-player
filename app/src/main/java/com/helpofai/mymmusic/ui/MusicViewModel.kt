@@ -120,6 +120,13 @@ class MusicViewModel @Inject constructor(
     private val _adaptiveLoudness = MutableStateFlow(0f)
     val adaptiveLoudness = _adaptiveLoudness.asStateFlow()
 
+    // 8D Audio State
+    private val _is8DEnabled = MutableStateFlow(false)
+    val is8DEnabled = _is8DEnabled.asStateFlow()
+    
+    private val _rotationSpeed = MutableStateFlow(0.12f)
+    val rotationSpeed = _rotationSpeed.asStateFlow()
+
     // Audio Output State
     val availableOutputs = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         audioOutputRepository.getAvailableDevices()
@@ -252,6 +259,16 @@ class MusicViewModel @Inject constructor(
     fun setAdaptiveLoudness(value: Float) {
         _adaptiveLoudness.value = value
         stereoAudioProcessor.setAdaptiveLoudness(value)
+    }
+    
+    fun set8DMode(enabled: Boolean) {
+        _is8DEnabled.value = enabled
+        stereoAudioProcessor.set8DMode(enabled)
+    }
+
+    fun set8DSpeed(speed: Float) {
+        _rotationSpeed.value = speed
+        stereoAudioProcessor.set8DSpeed(speed)
     }
     
     fun onSearchQueryChanged(query: String) {
