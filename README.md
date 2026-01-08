@@ -1,4 +1,4 @@
-# MyM Music - Professional Audio Player
+# My Music - Professional Audio Player
 
 MyM Music is a flagship-grade Android music player built with a focus on high-fidelity audio processing, modern material design, and a seamless user experience. It features a 32-bit floating-point DSP engine, a dynamic Palette-based UI, and comprehensive library management.
 
