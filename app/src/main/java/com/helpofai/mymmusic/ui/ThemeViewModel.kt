@@ -30,7 +30,8 @@ class ThemeViewModel @Inject constructor() : ViewModel() {
     fun toggleTheme() {
         _currentTheme.value = when (_currentTheme.value) {
             ThemeType.PinkDark -> ThemeType.GreenLight
-            ThemeType.GreenLight -> ThemeType.PinkDark
+            ThemeType.GreenLight -> ThemeType.Rainbow
+            ThemeType.Rainbow -> ThemeType.Dynamic
             ThemeType.Dynamic -> ThemeType.PinkDark
         }
     }

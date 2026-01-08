@@ -11,6 +11,8 @@ import kotlinx.coroutines.withContext
 data class ExtractedColors(
     val primary: Int,
     val secondary: Int,
+    val tertiary: Int,
+    val muted: Int,
     val background: Int
 )
 
@@ -26,9 +28,11 @@ object ColorExtractor {
                 val palette = Palette.from(bitmap).generate()
                 val primary = palette.getVibrantColor(0xFFBB86FC.toInt())
                 val secondary = palette.getLightVibrantColor(0xFF03DAC6.toInt())
+                val tertiary = palette.getDarkVibrantColor(0xFF3700B3.toInt())
+                val muted = palette.getMutedColor(0xFF666666.toInt())
                 val dark = palette.getDarkMutedColor(0xFF121212.toInt())
                 
-                return@withContext ExtractedColors(primary, secondary, dark)
+                return@withContext ExtractedColors(primary, secondary, tertiary, muted, dark)
             }
         } catch (e: Exception) {
             e.printStackTrace()
