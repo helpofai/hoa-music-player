@@ -39,7 +39,7 @@ fun FoldersScreen(
     val leftLevel by viewModel.leftLevel.collectAsState()
     val rightLevel by viewModel.rightLevel.collectAsState()
 
-    val topBarHeight = 64.dp
+    val topBarHeight = 48.dp
     val topBarHeightPx = with(LocalDensity.current) { topBarHeight.roundToPx().toFloat() }
     var topBarOffsetHeightPx by remember { mutableFloatStateOf(0f) }
 

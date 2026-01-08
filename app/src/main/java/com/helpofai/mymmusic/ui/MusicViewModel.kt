@@ -52,6 +52,28 @@ class MusicViewModel @Inject constructor(
         }.sortedBy { it.name }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
+    val albums = _audioFiles.map { files ->
+        files.groupBy { it.album }.map { (name, tracks) ->
+            Album(
+                name = name,
+                artist = tracks.firstOrNull()?.artist ?: "Unknown Artist",
+                artworkUri = tracks.firstOrNull()?.albumArtUri,
+                trackCount = tracks.size,
+                year = tracks.firstOrNull()?.year ?: 0
+            )
+        }.sortedBy { it.name }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
+    val artists = _audioFiles.map { files ->
+        files.groupBy { it.artist }.map { (name, tracks) ->
+            Artist(
+                name = name,
+                trackCount = tracks.size,
+                albumCount = tracks.distinctBy { it.album }.size
+            )
+        }.sortedBy { it.name }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
     // Lyrics State
     private val _currentLyrics = MutableStateFlow<Lyrics?>(null)
     val currentLyrics = _currentLyrics.asStateFlow()

@@ -56,7 +56,7 @@ fun HomeScreen(
         audioFiles.find { it.id.toString() == currentMediaItem?.mediaId }
     }
 
-    val topBarHeight = 64.dp 
+    val topBarHeight = 48.dp
     val topBarHeightPx = with(LocalDensity.current) { topBarHeight.roundToPx().toFloat() }
     var topBarOffsetHeightPx by remember { mutableFloatStateOf(0f) }
 
@@ -188,28 +188,8 @@ fun HomeScreen(
                 onThemeClick = onEqClick
             )
         }
-
-        if (currentMediaItem != null) {
-            val playbackState by viewModel.playbackState.collectAsState()
-            Box(
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .padding(bottom = 16.dp)
-            ) {
-                AdvancedMiniPlayer(
-                    title = currentMediaItem?.mediaMetadata?.title?.toString() ?: stringResource(R.string.unknown_track),
-                    artist = currentMediaItem?.mediaMetadata?.artist?.toString() ?: stringResource(R.string.unknown_artist),
-                    isPlaying = isPlaying,
-                    currentPosition = playbackState.currentPosition,
-                    duration = playbackState.duration,
-                    fftData = fftData,
-                    onTogglePlayPause = { viewModel.togglePlayPause() },
-                    onSkipNext = { viewModel.skipToNext() },
-                    onSkipPrevious = { viewModel.skipToPrevious() },
-                    onClick = onNavigateToPlayer
-                )
-            }
-        }
+        
+        // MiniPlayer Removed from here
     }
 }
 

@@ -41,10 +41,10 @@ fun FlagshipTopBar(
     ) {
         Row(
             modifier = Modifier
-                .padding(horizontal = 8.dp, vertical = 4.dp)
+                .padding(horizontal = 8.dp, vertical = 0.dp)
                 .fillMaxWidth()
                 .statusBarsPadding()
-                .height(56.dp),
+                .height(40.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -189,14 +189,15 @@ fun AudioBadge(text: String) {
 
 @Composable
 fun QuickAccessGrid(
-    onFoldersClick: () -> Unit = {}
+    onFoldersClick: () -> Unit = {},
+    onLibraryClick: () -> Unit = {}
 ) {
     val items = listOf(
-        Triple(stringResource(R.string.nav_songs), Icons.Default.MusicNote, {}),
+        Triple(stringResource(R.string.nav_songs), Icons.Default.MusicNote, onLibraryClick),
         Triple(stringResource(R.string.nav_albums), Icons.Default.Album, {}),
         Triple(stringResource(R.string.nav_folders), Icons.Default.Folder, onFoldersClick),
         Triple(stringResource(R.string.nav_artists), Icons.Default.Person, {}),
-        Triple(stringResource(R.string.nav_library), Icons.Default.LibraryMusic, {}),
+        Triple(stringResource(R.string.nav_library), Icons.Default.LibraryMusic, onLibraryClick),
         Triple(stringResource(R.string.nav_genres), Icons.Default.Mic, {})
     )
 

@@ -12,10 +12,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberPermissionState
@@ -25,6 +29,7 @@ import com.helpofai.mymmusic.ui.navigation.Screen
 import com.helpofai.mymmusic.ui.screens.*
 import com.helpofai.mymmusic.ui.theme.ColorExtractor
 import com.helpofai.mymmusic.ui.theme.MyMMusicTheme
+import com.helpofai.mymmusic.ui.components.AdvancedMiniPlayer
 import com.helpofai.mymmusic.ui.components.MusicNavigationDrawer
 import com.helpofai.mymmusic.ui.components.SleepTimerSheet
 import dagger.hilt.android.AndroidEntryPoint
@@ -52,6 +57,15 @@ class MainActivity : ComponentActivity() {
             var showSleepTimer by remember { mutableStateOf(false) }
             val sleepTimerSheetState = rememberModalBottomSheetState()
             val sleepTimerMillis by viewModel.sleepTimerMillis.collectAsState()
+
+            // Observe playback state for MiniPlayer
+            val playbackState by viewModel.playbackState.collectAsState()
+            val fftData by viewModel.fftData.collectAsState()
+            val isPlaying by viewModel.isPlaying.collectAsState()
+            
+            // Get current route
+            val navBackStackEntry by navController.currentBackStackEntryAsState()
+            val currentRoute = navBackStackEntry?.destination?.route
 
             // Extract colors when song changes
             LaunchedEffect(currentMediaItem) {
@@ -99,7 +113,7 @@ class MainActivity : ComponentActivity() {
                                     "About" -> navController.navigate(Screen.About.route)
                                 }
                             },
-                            currentRoute = null
+                            currentRoute = currentRoute
                         )
                     }
                 ) {
@@ -107,22 +121,24 @@ class MainActivity : ComponentActivity() {
                         Box(modifier = Modifier.padding(innerPadding)) {
                             NavHost(
                                 navController = navController,
-                                startDestination = Screen.Splash.route
+                                startDestination = Screen.Splash.route,
+                                modifier = Modifier.fillMaxSize()
                             ) {
                                 composable(Screen.Splash.route) {
                                     SplashScreen(navController = navController)
                                 }
                                 composable(Screen.Home.route) {
-                                                                        HomeScreen(
-                                                                            viewModel = viewModel,
-                                                                            onThemeToggle = { themeViewModel.toggleTheme() },
-                                                                            onNavigateToPlayer = { navController.navigate(Screen.NowPlaying.route) },
-                                                                            onSearchClick = { navController.navigate(Screen.Search.route) },
-                                                                            onFoldersClick = { navController.navigate(Screen.Folders.route) },
-                                                                            onLibraryClick = { navController.navigate(Screen.Library.route) },
-                                                                            onMenuClick = { scope.launch { drawerState.open() } },
-                                                                            onEqClick = { navController.navigate(Screen.Eq.route) }
-                                                                        )                                }
+                                    HomeScreen(
+                                        viewModel = viewModel,
+                                        onThemeToggle = { themeViewModel.toggleTheme() },
+                                        onNavigateToPlayer = { navController.navigate(Screen.NowPlaying.route) },
+                                        onSearchClick = { navController.navigate(Screen.Search.route) },
+                                        onFoldersClick = { navController.navigate(Screen.Folders.route) },
+                                        onLibraryClick = { navController.navigate(Screen.Library.route) },
+                                        onMenuClick = { scope.launch { drawerState.open() } },
+                                        onEqClick = { navController.navigate(Screen.Eq.route) }
+                                    )
+                                }
                                 composable(Screen.NowPlaying.route) {
                                     NowPlayingScreen(
                                         viewModel = viewModel,
@@ -176,6 +192,28 @@ class MainActivity : ComponentActivity() {
                                 composable(Screen.About.route) {
                                     AboutScreen(
                                         onBackClick = { navController.popBackStack() }
+                                    )
+                                }
+                            }
+                            
+                            // Mini Player Layer
+                            if (currentMediaItem != null && currentRoute != Screen.NowPlaying.route && currentRoute != Screen.Splash.route) {
+                                Box(
+                                    modifier = Modifier
+                                        .align(Alignment.BottomCenter)
+                                        .padding(bottom = 16.dp)
+                                ) {
+                                    AdvancedMiniPlayer(
+                                        title = currentMediaItem?.mediaMetadata?.title?.toString() ?: stringResource(R.string.unknown_track),
+                                        artist = currentMediaItem?.mediaMetadata?.artist?.toString() ?: stringResource(R.string.unknown_artist),
+                                        isPlaying = isPlaying,
+                                        currentPosition = playbackState.currentPosition,
+                                        duration = playbackState.duration,
+                                        fftData = fftData,
+                                        onTogglePlayPause = { viewModel.togglePlayPause() },
+                                        onSkipNext = { viewModel.skipToNext() },
+                                        onSkipPrevious = { viewModel.skipToPrevious() },
+                                        onClick = { navController.navigate(Screen.NowPlaying.route) }
                                     )
                                 }
                             }
